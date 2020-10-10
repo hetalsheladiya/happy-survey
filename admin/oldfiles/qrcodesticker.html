@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <style type="text/css">
+  	
+  	@media print {
+	  	body{
+	  		width: 21cm;
+	        height: 29.7cm;
+	        margin: 30mm 45mm 30mm 45mm; 
+	  	}
+	  }
+
+  	.inner{
+  		position: fixed;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%,-50%);
+  		max-width: 100%;
+  		border : 10px solid rgb(255,176,3);
+  		border-radius: 20px;
+  		padding: 20px;
+  	}
+  	.qrcode{
+  		margin-top: 20px;
+  		text-align: center;
+  	}
+  	h1{
+  		text-align: center;
+  		content: rgb(74,74,74);
+  	}
+  	.smiley{
+  		text-align: center;
+      margin-top: 5px; 
+  	}
+  	.last{
+  		text-align: center;
+  		max-width: 100%;
+  		font-size: 20px;
+  		color: rgb(158,158,158);
+  	}
+    @media only screen and (max-width: 568px) {
+      .inner{
+        width: 100%;
+      }
+      h1{
+        font-size: 24px;
+      }
+    }
+  
+
+  </style>
+</head>
+<body>
+<div class="main">
+	<div class="inner">
+    <h1>SCAN QR CODE TO SUBMIT FEEDBACK</h1>
+		<div class="qrcode">
+			<img src="../qr-code/qr1564073718410.png" height="250" width="250">
+    </div>
+		
+		<div class="smiley">
+			<img src="assets/images/smiley_face1.png" height="50" width="50">
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
